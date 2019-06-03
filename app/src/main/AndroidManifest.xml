@@ -23,6 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.EndSnapActivity" />
+        <activity android:name=".view.CenterSnapActivity" />
+        <activity android:name=".view.PagerSnapActivity" />
     </application>
 
 </manifest>

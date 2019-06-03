@@ -35,10 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btnPager)
     public void onMBtnPagerClicked() {
+        startActivity(new Intent(this, PagerSnapActivity.class));
     }
 
     @OnClick(R.id.btnCenter)
     public void onMBtnCenterClicked() {
+        startActivity(new Intent(this, CenterSnapActivity.class));
     }
 
     @OnClick(R.id.btnLeft)

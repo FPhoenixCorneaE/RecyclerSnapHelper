@@ -4,11 +4,11 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.wkz.snaphelper.R;
 import com.wkz.snaphelper.adapter.RecyclerSnapAdapter;
-import com.wkz.snaphelper.widget.StartSnapHelper;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
 /**
  * @author wkz
  */
-public class StartSnapActivity extends AppCompatActivity {
+public class PagerSnapActivity extends AppCompatActivity {
 
     @BindView(R.id.rvStartSnap)
     RecyclerView mRvStartSnap;
@@ -34,6 +34,6 @@ public class StartSnapActivity extends AppCompatActivity {
         mRvStartSnap.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         mRvStartSnap.setHasFixedSize(true);
         mRvStartSnap.setAdapter(new RecyclerSnapAdapter());
-        new StartSnapHelper().attachToRecyclerView(mRvStartSnap);
+        new PagerSnapHelper().attachToRecyclerView(mRvStartSnap);
     }
 }
