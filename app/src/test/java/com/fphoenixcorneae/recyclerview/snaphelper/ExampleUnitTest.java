@@ -1,4 +1,4 @@
-package com.wkz.snaphelper;
+package com.fphoenixcorneae.recyclerview.snaphelper;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.wkz.snaphelper.model;
+package com.fphoenixcorneae.recyclerview.snaphelper.model;
 
 import java.util.Arrays;
 import java.util.List;

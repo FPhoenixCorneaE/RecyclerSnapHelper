@@ -1,4 +1,4 @@
-package com.wkz.snaphelper.view;
+package com.fphoenixcorneae.recyclerview.snaphelper.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.wkz.snaphelper.R;
+import com.fphoenixcorneae.recyclerview.snaphelper.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

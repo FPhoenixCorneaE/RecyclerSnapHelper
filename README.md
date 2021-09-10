@@ -1,2 +1,2 @@
 # RecyclerSnapHelper
-RecyclerView滑动停靠居中、左对齐、右对齐效果，ViewPager翻页效果
+RecyclerView 滑动停靠居中、左对齐、右对齐，ViewPager 翻页效果。

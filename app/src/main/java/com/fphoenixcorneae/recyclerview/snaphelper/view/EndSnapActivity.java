@@ -1,4 +1,4 @@
-package com.wkz.snaphelper.view;
+package com.fphoenixcorneae.recyclerview.snaphelper.view;
 
 import android.os.Bundle;
 
@@ -6,9 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.wkz.snaphelper.R;
-import com.wkz.snaphelper.adapter.RecyclerSnapAdapter;
-import com.wkz.snaphelper.widget.StartSnapHelper;
+import com.fphoenixcorneae.recyclerview.snaphelper.R;
+import com.fphoenixcorneae.recyclerview.snaphelper.adapter.RecyclerSnapAdapter;
+import com.fphoenixcorneae.recyclerview.snaphelper.widget.EndSnapHelper;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
 /**
  * @author wkz
  */
-public class StartSnapActivity extends AppCompatActivity {
+public class EndSnapActivity extends AppCompatActivity {
 
     @BindView(R.id.rvStartSnap)
     RecyclerView mRvStartSnap;
@@ -34,6 +34,6 @@ public class StartSnapActivity extends AppCompatActivity {
         mRvStartSnap.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         mRvStartSnap.setHasFixedSize(true);
         mRvStartSnap.setAdapter(new RecyclerSnapAdapter());
-        new StartSnapHelper().attachToRecyclerView(mRvStartSnap);
+        new EndSnapHelper().attachToRecyclerView(mRvStartSnap);
     }
 }

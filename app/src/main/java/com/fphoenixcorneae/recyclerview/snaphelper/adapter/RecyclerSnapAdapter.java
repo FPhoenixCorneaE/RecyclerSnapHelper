@@ -1,4 +1,4 @@
-package com.wkz.snaphelper.adapter;
+package com.fphoenixcorneae.recyclerview.snaphelper.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,8 +14,8 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
-import com.wkz.snaphelper.R;
-import com.wkz.snaphelper.model.ImageModel;
+import com.fphoenixcorneae.recyclerview.snaphelper.R;
+import com.fphoenixcorneae.recyclerview.snaphelper.model.ImageModel;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.wkz.snaphelper">
+    package="com.fphoenixcorneae.recyclerview.snaphelper">
 
     <dist:module dist:instant="true" />
 
@@ -14,17 +14,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.StartSnapActivity" />
-        <activity android:name=".view.MainActivity">
+        <activity android:name="com.fphoenixcorneae.recyclerview.snaphelper.view.StartSnapActivity" />
+        <activity android:name="com.fphoenixcorneae.recyclerview.snaphelper.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.EndSnapActivity" />
-        <activity android:name=".view.CenterSnapActivity" />
-        <activity android:name=".view.PagerSnapActivity" />
+        <activity android:name="com.fphoenixcorneae.recyclerview.snaphelper.view.EndSnapActivity" />
+        <activity android:name="com.fphoenixcorneae.recyclerview.snaphelper.view.CenterSnapActivity" />
+        <activity android:name="com.fphoenixcorneae.recyclerview.snaphelper.view.PagerSnapActivity" />
     </application>
 
 </manifest>
